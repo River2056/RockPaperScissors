@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Asap;
+    src: url("./Asap/Asap-Regular.ttf");
+}
+
+@font-face {
+    font-family: Asap;
+    src: url(./Asap/Asap-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    background-color: #292c34
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+header > h1 {
+    color: #25272e;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+#game_count {
+    padding: 15px;
+    color: #fff;
+    font-family: Asap, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.score_board {
+    border: 3px solid white;
+    width: 200px;
+    margin: 20px auto;
+    color: #fff;
+    font-size: 46px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: Asap, sans-serif;
+    position: relative;
+}
+
+.badge {
+    background: #e2584d;
+    color: #fff;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: Asap, sans-serif;
+}
+
+#user_label {
+    position: absolute;
+    left: -25px;
+    top: 30px;
+}
+
+#computer_label {
+    position: absolute;
+    right: -30px;
+    top: 30px;
+}
+
+.result {
+    color: #fff;
+    font-family: Asap, sans-serif;
+    font-size: 40px;
+}
+
+.result > p {
+    text-align: center;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+}
+
+.choices {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.choice {
+    border: 4px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 20px;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+}
+
+.choice img {
+    width: 80px;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: #24272e;
+}
+
+#action_msg {
+    text-align: center;
+    color: #fff;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+#reset_btn {
+    display: block;
+    margin: 20px auto;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    font-size: 22px;
+    border: 3px solid #fff;
+    background-color: none;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 30px;
+    transition: all 0.3s ease;
+}
+
+#reset_btn:hover {
+    cursor: pointer;
+    background: #24272e;
+}
+
+.green_glow {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red_glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray_glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
